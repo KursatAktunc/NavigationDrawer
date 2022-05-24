@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/mail_subheader_title">
+        <menu>
+            <item
+                android:id="@+id/search_item"
+                android:checkable="true"
+                android:icon="@drawable/ic_search_24"
+                android:title="@string/search_title" />
+            <item
+                android:id="@+id/inbox_item"
+                android:checkable="true"
+                android:icon="@drawable/ic_inbox_24"
+                android:title="@string/inbox_title" />
+            <item
+                android:id="@+id/outbox_item"
+                android:checkable="true"
+                android:icon="@drawable/ic_outbox_24"
+                android:title="@string/outbox_title" />
+            <item
+                android:id="@+id/favourites_item"
+                android:checkable="true"
+                android:icon="@drawable/ic_favorite_24"
+                android:title="@string/favourites_title" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/labels_item"
+        android:title="@string/labels_subheader_title">
+        <menu>
+            <item
+                android:id="@+id/label_one"
+                android:checkable="true"
+                android:icon="@drawable/ic_settings_24"
+                android:title="@string/label_one_title"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/label_two"
+                android:checkable="true"
+                android:icon="@drawable/ic_exit_to_app_24"
+                android:title="@string/label_two_title"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>
